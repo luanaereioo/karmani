@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro </title>
+    <link rel="stylesheet" href="./CSS/parte2.css">
+    <link rel="stylesheet" href="./HTML/final.html">
+
+</head>
+<body>
+    
+    <div id="logo"> 
+        <img src="../Img/7.png" alt="">
+      </div>
+
+      <div class="alert">
+        <button id="fechar"  onclick="fechar()">CONCORDO COM OS TERMOS</button>
+        </div>
+
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js" integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <div id="Form" action="https://api.sheetmonkey.io/form/TKPe4ahk59dADsA7R2ys8" method="post">
+
+        <form action="">
+          <h2 class="title" style="font-size: 25px; text-align: center;">Envio de documentação</h2>
+
+          <label for="Username">Documento com foto do responsável pelo CNPJ; (RG OU CNH, frente e verso)</label> 
+          <div id="btn">
+            <a href="Index.html">
+            <button type="button" onclick="whatsapp();">Enviar Documento</button>
+             </a>
+
+          </div>
+          <div class="input">
+          <input type="text" class="form-control" id="foto" name="foto" id="foto" type="text">
+          <span class="text-danger"></span>
+          </div> 
+     
+         <script src="./ins.js"></script>
+          <script src="./java2.js"></script>
+
+
+</body>
+
+<script id="whats" >
+
+    
+    function whatsapp(){
+    var doc = ("ENVIE SEU DOCUMENTO");
+   
+    
+    var url = "https://wa.me/5511959943705?text="
+    +"ATENÇÃO : "+doc+"\n"
+    
+    
+    window.open(url, '_blank').focus();
+    }
+    </script>
+
+     
+<script id="whats2" >
+    function whatsapp2(){
+    var QR = document.getElementById("QR").value;
+    var ref = document.getElementById("ref").value;
+    
+    var url = "https://wa.me/5511959943705?text="
+    
+    
+    + " , " + " " + "REPRESENTAÇÃO NO BOM RETIRO: "+QR+"\n" 
+    + " , " + " "+"REFERÊNCIAS NO BOM RETIRO : "+ref+"\n"
+   
+    
+    window.open(url, '_blank').focus();
+    }
+    </script>
+
+</html>

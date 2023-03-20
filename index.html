@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro Atacado</title>
+    <link rel="stylesheet" href="./Index.css">
+    <link rel="stylesheet" href="./HTML/PARTE2.html">
+
+    
+    
+</head>
+<body>
+
+  <div id="preloader"></div>
+  <iframe style="display: none"; width="0" height="315" src="https://www.youtube.com/embed/c3Z3hpEgXBw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  <iframe style="display: none"; width="0" height="315" src="https://www.youtube.com/embed/c3Z3hpEgXBw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  <iframe style="display: none"; width="0" height="315" src="https://www.youtube.com/embed/c3Z3hpEgXBw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> 
+
+      <div id="logo"> 
+        <img src="../Img/7.png" alt="">
+      </div>
+
+      
+        
+      <div class="alert">
+
+        <div id="logo1"> 
+        
+          <img src="../Img/12.png" id="logo1" style="margin-top: 1px; right: 20px; margin-left:40px;" alt="">
+        </div>
+        <button id="fechar"  onclick="fechar()">CONCORDO COM OS TERMOS</button>
+
+      </div>
+
+    </div>
+    
+
+
+    <div id="Form">
+
+  
+          <form action="https://api.sheetmonkey.io/form/TKPe4ahk59dADsA7R2ys8" method="post">
+            <h2 class="title">Cadastro Atacado</h2>
+
+            <div id="btn">
+              <button required type="button" onclick="ativarDD();window.location.href ='PARTE2.html'" id="doc">Adicionar documento</button>
+    
+            </div>
+
+
+          <div>
+            <label for="Username">CNPJ</label> 
+
+            <div class="input" >
+            <input  type="text" class="form-control" id="CNPJ" name="CNPJ" placeholder="CNPJ OU" id="CNPJ" type="text" required maxlength="18" >
+            <span class="text-danger"></span>
+
+
+            <div id="btn">
+              <button required type="button" onclick="whatsapp2()" id="doc">CADASTRO NACIONAL DA PESSOA JURÍDICA</button>
+    
+            </div>
+              
+    
+               
+            </div>
+       
+            <label for="Inscrição">Inscrição Estadual </label>
+            <div class="input">
+            <input type="text" class="form-control" id="Inscrição" name="Inscrição" placeholder="" id="Inscrição" type="text" onclick="cnpjj();">
+            <span class="text-danger"></span>
+
+
+            </div>
+            <label for="Email">Email</label>
+            <div class="input">
+            <input type="text" class="form-control" id="Email" name="Email" placeholder="CAMPO OBRIGATÓRIO" id="Email" type="text" required>
+            <span class="text-danger"></span>
+        </div>
+
+
+        <div class="wrapper" id="radio">
+           <div class="form-group">
+             <input class="radio" name="theradio" value="Loja Virtual " id="radio1" type="checkbox" checked>
+             <label for="radio1">Loja Virtual</label>
+           </div>
+
+
+           <div class="teste">
+           <div class="form-group">
+            <input class="radio" name="theradio" value="Loja Física" id="radio2" type="checkbox" checked>
+            <label for="radio2">Loja Física</label>
+          </div>
+        </div>
+      </div>
+
+        <label for="URL da loja virtual">URL da loja virtual ou nome da loja física</label>
+        <div class="input">
+        <input type="text" class="form-control" id="urll" name="URL da loja virtual" placeholder="CAMPO OBRIGATÓRIO" id="urll" type="text" required>
+        <span class="text-danger"></span>
+    </div>
+
+
+    <label for="️Perfil do Instagram">️ Perfil do Instagram</label>
+        <div class="input">
+        <input type="text" class="form-control" id="perfil" name="️Perfil do Instagram" placeholder="️" id="perfil" type="text" onclick="ativarI();" style="text-align: center;" minlength="5" >
+        <span class="text-danger"></span>
+
+
+        <div id="btn">
+          <button type="button" onclick="insta();habi();">Clique para verificar</button>
+
+        </div>
+
+    </div>
+
+ 
+    <label for="Verificado" ></label>
+    <div class="veri">
+    <input type="text" class="form-control" id="Verificado" name="Verificado"  id="Verificado" type="text" value="❌NÃO VERIFICADO" disabled >
+    <span class="text-danger"></span>
+</div>
+
+           
+
+           <h2  style="font-size: 25px; text-align: center; padding: 15px;;"> Caso possua, importante informar:</h2>
+
+           <label for="Username">Qual representação no Bom Retiro? </label> 
+             <div class="input" >
+             <input type="text" class="form-control" id="QR" name="Qual representação no Bom Retiro? "  id="QR" type="text" >
+             <span class="text-danger"></span>
+             </div>
+ 
+             <label for="Username">Referências no Bom Retiro: </label> 
+             <div class="input" >
+             <input type="text" class="form-control" id="ref" name="Referências no Bom Retiro:" id="ref" type="text" >
+             <span class="text-danger"></span>
+             </div>
+
+             <div>
+             
+
+             <div id="btn" >
+              <button onclick="whatsapp();parte2();"type="submit" id="enviarBtn">Finalizar Cadastro</button>
+             
+            </div>
+
+           
+           <!-- <div id="btn">
+            <button onclick="Window.open('PARTE2.html')">Prosseguir </button>
+
+          </div> -->
+
+        </form>
+
+           
+
+    </div>
+
+    <script src="./java.js"></script>
+    <script src="./js/ins.js"></script>
+    
+
+    
+     </div>
+
+</body>
+
+<script>
+
+  var loader = document.getElementById("preloader");
+  window.addEventListener("load", function(){
+      loader.style.display = "none"
+  })
+  </script> 
+
+  <script>
+
+// function insta()
+// {
+//    var perfilv = document.getElementById("perfil").value;
+  
+//      var url = "https://instagram.com/" + perfilv;
+    
+//      window.open(url, '_blank').focus();
+// }
+
+
+  </script>
+
+
+<script id="whats2" >
+
+    
+  function whatsapp2(){
+  var doc = ("ENVIE CADASTRO NACIONAL DA PESSOA JURÍDICA");
+ 
+  
+  var url = "https://wa.me/5511959943705?text="
+  +"ATENÇÃO : "+doc+"\n"
+  
+  
+  window.open(url, '_blank').focus();
+  }
+  </script>
+
+
+<script>
+
+
+
+</script>
+
+</html>
